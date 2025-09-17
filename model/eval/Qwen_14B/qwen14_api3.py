@@ -74,6 +74,6 @@ def process_cases(file_path, output_path, api_key):
 if __name__ == "__main__":
     input_file = "LCRCheck/cases2/Judgment/one_people.json"  # 输入案件文件路径
     output_file = "LCRCheck/results/test/Qwen/judgment.json"  # 输出结果文件路径
-    api_key = "sk-7e3e57a2c497412fa4aff8d047a9f5b5"  # 替换为你的API Key
+    api_key = ""  # 替换为你的API Key
 
     process_cases(input_file, output_file, api_key)
