@@ -75,6 +75,6 @@ def process_cases(file_path, output_path, api_key):
 if __name__ == "__main__":
     input_file = "cases2/cail_mix.json"  # 输入案件文件路径
     output_file = "model/results/deepseek/cail_mix.json"  # 输出结果文件路径
-    api_key = "sk-7e3e57a2c497412fa4aff8d047a9f5b5"  #  API Key
+    api_key = ""  #  API Key
 
     process_cases(input_file, output_file, api_key)
